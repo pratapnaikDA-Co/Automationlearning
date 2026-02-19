@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: org.seleniumhq.selenium:selenium-support:4.40.0">
+    <archive path="C:/Users/prata/.m2/repository/org/seleniumhq/selenium/selenium-support/4.40.0/selenium-support-4.40.0.jar" />
+  </library>
+  <library name="Maven: org.jspecify:jspecify:1.0.0">
+    <archive path="C:/Users/prata/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-api:4.40.0">
+    <archive path="C:/Users/prata/.m2/repository/org/seleniumhq/selenium/selenium-api/4.40.0/selenium-api-4.40.0.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-java:4.40.0">
+    <archive path="C:/Users/prata/.m2/repository/org/seleniumhq/selenium/selenium-java/4.40.0/selenium-java-4.40.0.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-ie-driver:4.40.0">
+    <archive path="C:/Users/prata/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.40.0/selenium-ie-driver-4.40.0.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-http:4.40.0">
+    <archive path="C:/Users/prata/.m2/repository/org/seleniumhq/selenium/selenium-http/4.40.0/selenium-http-4.40.0.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-firefox-driver:4.40.0">
+    <archive path="C:/Users/prata/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.40.0/selenium-firefox-driver-4.40.0.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-edge-driver:4.40.0">
+    <archive path="C:/Users/prata/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.40.0/selenium-edge-driver-4.40.0.jar" />
+  </library>
+  <library name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava">
+    <archive path="C:/Users/prata/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+  </library>
+  <library name="Maven: com.google.guava:failureaccess:1.0.3">
+    <archive path="C:/Users/prata/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar" />
+  </library>
+  <library name="Maven: com.google.guava:guava:33.5.0-jre">
+    <archive path="C:/Users/prata/.m2/repository/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-remote-driver:4.40.0">
+    <archive path="C:/Users/prata/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.40.0/selenium-remote-driver-4.40.0.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-json:4.40.0">
+    <archive path="C:/Users/prata/.m2/repository/org/seleniumhq/selenium/selenium-json/4.40.0/selenium-json-4.40.0.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-chromium-driver:4.40.0">
+    <archive path="C:/Users/prata/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.40.0/selenium-chromium-driver-4.40.0.jar" />
+  </library>
+  <library name="Maven: com.google.auto.service:auto-service-annotations:1.1.1">
+    <archive path="C:/Users/prata/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:4.40.0">
+    <archive path="C:/Users/prata/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.40.0/selenium-chrome-driver-4.40.0.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-devtools-v144:4.40.0">
+    <archive path="C:/Users/prata/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v144/4.40.0/selenium-devtools-v144-4.40.0.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-devtools-v143:4.40.0">
+    <archive path="C:/Users/prata/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v143/4.40.0/selenium-devtools-v143-4.40.0.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-devtools-v142:4.40.0">
+    <archive path="C:/Users/prata/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v142/4.40.0/selenium-devtools-v142-4.40.0.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-manager:4.40.0">
+    <archive path="C:/Users/prata/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.40.0/selenium-manager-4.40.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-sdk-metrics:1.58.0">
+    <archive path="C:/Users/prata/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.58.0/opentelemetry-sdk-metrics-1.58.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-sdk:1.58.0">
+    <archive path="C:/Users/prata/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.58.0/opentelemetry-sdk-1.58.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-sdk-trace:1.58.0">
+    <archive path="C:/Users/prata/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.58.0/opentelemetry-sdk-trace-1.58.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:1.58.0">
+    <archive path="C:/Users/prata/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.58.0/opentelemetry-sdk-extension-autoconfigure-1.58.0.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-safari-driver:4.40.0">
+    <archive path="C:/Users/prata/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.40.0/selenium-safari-driver-4.40.0.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-os:4.40.0">
+    <archive path="C:/Users/prata/.m2/repository/org/seleniumhq/selenium/selenium-os/4.40.0/selenium-os-4.40.0.jar" />
+  </library>
+  <library name="Maven: net.bytebuddy:byte-buddy:1.18.4">
+    <archive path="C:/Users/prata/.m2/repository/net/bytebuddy/byte-buddy/1.18.4/byte-buddy-1.18.4.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-sdk-logs:1.58.0">
+    <archive path="C:/Users/prata/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.58.0/opentelemetry-sdk-logs-1.58.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-context:1.58.0">
+    <archive path="C:/Users/prata/.m2/repository/io/opentelemetry/opentelemetry-context/1.58.0/opentelemetry-context-1.58.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-api:1.58.0">
+    <archive path="C:/Users/prata/.m2/repository/io/opentelemetry/opentelemetry-api/1.58.0/opentelemetry-api-1.58.0.jar" />
+  </library>
+  <library name="Maven: com.google.j2objc:j2objc-annotations:3.1">
+    <archive path="C:/Users/prata/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar" />
+  </library>
+  <library name="Maven: com.google.errorprone:error_prone_annotations:2.41.0">
+    <archive path="C:/Users/prata/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:1.58.0">
+    <archive path="C:/Users/prata/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.58.0/opentelemetry-sdk-extension-autoconfigure-spi-1.58.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-sdk-common:1.58.0">
+    <archive path="C:/Users/prata/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.58.0/opentelemetry-sdk-common-1.58.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-exporter-logging:1.58.0">
+    <archive path="C:/Users/prata/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.58.0/opentelemetry-exporter-logging-1.58.0.jar" />
+  </library>
+  <library name="Maven: io.opentelemetry:opentelemetry-common:1.58.0">
+    <archive path="C:/Users/prata/.m2/repository/io/opentelemetry/opentelemetry-common/1.58.0/opentelemetry-common-1.58.0.jar" />
+  </library>
+  <library name="Maven: org.jcommander:jcommander:1.83">
+    <archive path="C:/Users/prata/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar" />
+  </library>
+  <library name="Maven: org.webjars:jquery:3.7.1">
+    <archive path="C:/Users/prata/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar" />
+  </library>
+  <library name="Maven: org.testng:testng:7.12.0">
+    <archive path="C:/Users/prata/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar" />
+  </library>
+  <library name="Maven: org.slf4j:slf4j-api:2.0.16">
+    <archive path="C:/Users/prata/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar" />
+  </library>
+</eclipse-userlibraries>
+
