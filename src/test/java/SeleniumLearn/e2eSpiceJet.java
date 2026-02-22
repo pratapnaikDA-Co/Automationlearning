@@ -15,6 +15,9 @@ public class e2eSpiceJet {
 //        System.setProperty("webdriver.chrome.driver","filepath");
         String departure = "Goa";
         String destination = "Delhi";
+        String adultPassengerCount = "5";
+        String currency = "AED";
+        String[] departureDate = {"28","February","2026"};
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
@@ -31,7 +34,6 @@ public class e2eSpiceJet {
 
             if(City.getText().equalsIgnoreCase("gox")){
                 System.out.println("Goa is selected as Departure location");
-                Assert.assertTrue(true, "Goa is present in the destination");
                 break;
             }
         }
@@ -42,8 +44,34 @@ public class e2eSpiceJet {
         System.out.println(actualDestination);
         Assert.assertTrue(actualDestination.toLowerCase().contains(destination.toLowerCase()), "Delhi is not selected in Destination");
 
+        driver.findElement(By.xpath("//div[text()=\""+departureDate[1]+"\" and text()='"+departureDate[2]+"']/..//following-sibling::div//div//div//div//div[text()='"+departureDate[0]+"']")).click();
 
+        String returnDateEnable= driver.findElement(By.xpath("//div[@data-testid='return-date-dropdown-label-test-id']")).getDomAttribute("style");
+        if (returnDateEnable.contains("background-color: rgb(238, 238, 238)")){
+            Assert.assertTrue(true);
+        }
+        else{
+            Assert.fail("Return date is enabled");
+        }
+        driver.findElement(By.xpath("//div[@data-testid='home-page-travellers']")).click();
+        for(int i = 1; i<5;i++){
+            driver.findElement(By.xpath("//div[text()='Adult']/..//following-sibling::div//div[@data-testid=\"Adult-testID-plus-one-cta\"]")).click();
+        }
 
+        String actualCountofPassenger = driver.findElement(By.xpath("//div[@data-testid=\"home-page-travellers\"]//div//div[@class=\"css-76zvg2 css-bfa6kz r-homxoj r-ubezar\"]")).getText();
+        System.out.println(actualCountofPassenger);
+        String[] countActual = actualCountofPassenger.split(" ");
+        String ActualPassenger = countActual[0];
+
+        Assert.assertEquals(ActualPassenger, adultPassengerCount,"count of passengers doesnot match");
+
+        driver.findElement(By.xpath("//div[text()='Currency']")).click();
+        driver.findElement(By.xpath("//div[@class=\"css-1dbjc4n\"]//div//div[text()='"+currency+"']")).click();
+        driver.findElement(By.xpath("//div[@data-testid=\"home-page-flight-cta\"]")).click();
+
+        Assert.assertTrue(driver.findElement(By.xpath("//div[text()='1']/..//following-sibling::div[text()='Flights']")).isDisplayed(),"Something went wrong");
+
+        driver.quit();
 
 
     }
